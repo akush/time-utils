@@ -1,11 +1,16 @@
 {
   "name": "@ipsator/utils",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "description": "",
   "main": "index.js",
   "scripts": {
     "deploy": "npm publish --access public",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "prettier": {
+    "printWidth": 150,
+    "trailingComma": "es5",
+    "tabWidth": 2
   },
   "repository": {
     "type": "git",
